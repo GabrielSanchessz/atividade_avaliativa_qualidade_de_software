@@ -1,31 +1,27 @@
-# Sistema de Agendamento de Visitas - Qualidade de Software
+# Sistema de Agendamento de Visitas
 
-Este repositório contém o desenvolvimento de uma aplicação web para gestão de visitas, servindo como base prática para a aplicação de conceitos de qualidade, testes automatizados e integração contínua.
+Aplicação web para gestão de visitas desenvolvida para a disciplina de Qualidade de Software. O foco é a implementação de testes, CI/CD e revisão de código.
 
-## Funcionalidades do Sistema
+## 📋 Funcionalidades
 
-A aplicação está estruturada em três níveis de acesso para atender ao fluxo de agendamento:
+* **Administrador (Dev):** Gerencia locais, cidades e configurações do sistema.
+* **Funcionário:** Cadastra pessoas e agenda visitas por estabelecimento.
+* **Visitante:** Consulta cidades e estabelecimentos para agendamento.
 
-* **Administrador (Dev):** Responsável pelo gerenciamento de infraestrutura, incluindo o cadastro e controle de locais de visita, cidades e configurações gerais do sistema.
-* **Funcionário:** Atua na gestão operacional, cadastrando pessoas a serem visitadas em seus respectivos estabelecimentos e efetuando o agendamento das visitas.
-* **Visitante:** Interface de consulta onde o usuário seleciona cidades e estabelecimentos para interação e solicitações no sistema.
+## 🎯 Requisitos de Qualidade (CI/CD)
 
-## Requisitos de Qualidade (CI/CD)
+* **Testes Unitários:** Validação de funções, regras de negócio e dados.
+* **Pipeline de CI/CD:** Feedback automático com status e logs de execução.
+* **Revisão de Código:** Uso de GitHub Apps para análise e comentários em Pull Requests.
+* **Proteção de Branch:** Exigência de PR e aprovação da pipeline para merge na main.
+* **Deploy Automatizado:** Publicação contínua via GitHub Pages.
 
-Para cumprir os objetivos da disciplina, o projeto implementa obrigatoriamente:
+## 🛠️ Abordagem Técnica
 
-**Testes Unitários:** Validação de funções, regras de negócio e integridade dos dados[cite: 5, 6].
-**Pipeline de CI/CD:** Integração contínua com feedback automático de sucesso ou falha e logs de execução.
-**Revisão de Código:** Utilização de GitHub Apps para análise automatizada e comentários em Pull Requests (PRs).
-**Proteção de Branch:** A branch principal exige a execução bem-sucedida da pipeline e aprovação via PR para integração.
-**Deploy Automatizado:** Publicação contínua da aplicação através do GitHub Pages.
-
-## :tools: Abordagem Técnica
-
-**Tipo de Projeto:** [A definir: Frontend estático ou Integração com Backend/BaaS][cite: 11, 12].
-**Justificativa:** A arquitetura será detalhada conforme a evolução do desenvolvimento, visando atender aos critérios de persistência de dados necessários para os perfis de acesso.
+* **Tipo de Projeto:** [A definir: Frontend estático ou integração com BaaS/API].
+* **Demonstração:** Apresentação prática do app, testes, pipeline e restrições de PR em sala.
 
 ---
 **Alunos:** Gabriel Sanches de Souza e Higor Silva Monteiro de Souza
-**Docente:** Guilherme Ferraz
-**Data Limite:** 14/04/2026
+**Professor:** Guilherme Ferraz
+**Entrega:** 14/04/2026
