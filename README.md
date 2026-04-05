@@ -1,3 +1,4 @@
+
 # Sistema de Agendamento de Visitas
 
 Aplicação web para gestão de visitas desenvolvida para a disciplina de Qualidade de Software. O foco é a implementação de testes, CI/CD e revisão de código.
@@ -25,3 +26,6 @@ Aplicação web para gestão de visitas desenvolvida para a disciplina de Qualid
 **Alunos:** Gabriel Sanches de Souza e Higor Silva Monteiro de Souza
 **Professor:** Guilherme Ferraz
 **Entrega:** 14/04/2026
+=======
+# atividade_avaliativa_qualidade_de_software
+Trabalho Avaliativo da disciplina Qualidade de Software
