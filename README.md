@@ -1,20 +1,31 @@
-# Atividade Avaliativa - Qualidade de Software
+# Sistema de Agendamento de Visitas - Qualidade de Software
 
-O foco desta atividade consiste em:
-[cite_start]Implementar Testes Unitários em JavaScript para validação de regras de negócio e manipulação de dados[cite: 5, 6].
-[cite_start]Configurar um Pipeline de CI/CD que forneça feedback automático sobre o status da execução e logs dos testes[cite: 7, 8].
-[cite_start]Realizar o Deploy Automatizado da aplicação através do GitHub Pages[cite: 10].
-[cite_start]Estabelecer um processo de Revisão de Código Automatizada via GitHub Apps, garantindo análises e comentários automáticos em cada Pull Request[cite: 15, 16, 17].
+Este repositório contém o desenvolvimento de uma aplicação web para gestão de visitas, servindo como base prática para a aplicação de conceitos de qualidade, testes automatizados e integração contínua.
 
-🛠️ Decisões Técnicas e Qualidade
-Para atender aos padrões de qualidade exigidos:
-[cite_start]Fluxo de Trabalho: O repositório está configurado para exigir obrigatoriamente a utilização de Pull Requests para integração na branch principal (main/master)[cite: 21, 22].
-[cite_start]Integração Contínua: A conclusão com sucesso da pipeline via GitHub Actions é condição obrigatória para a aprovação do merge[cite: 22].
-[cite_start]Abordagem: [Inserir aqui se o projeto é Frontend Estático ou Integração com Backend (ex: Supabase)][cite: 11, 12].
+## :clipboard: Funcionalidades do Sistema
 
-🚀 Como Executar o Projeto
-Clone o repositório.
-Instale as dependências necessárias (ex: npm install).
-Execute os testes localmente para verificar a integridade (ex: npm test).
-Realize alterações em branches secundárias e submeta um Pull Request para observar a pipeline e a revisão automatizada em ação.
- 
+A aplicação está estruturada em três níveis de acesso para atender ao fluxo de agendamento:
+
+* **Administrador (Dev):** Responsável pelo gerenciamento de infraestrutura, incluindo o cadastro e controle de locais de visita, cidades e configurações gerais do sistema.
+* **Funcionário:** Atua na gestão operacional, cadastrando pessoas a serem visitadas em seus respectivos estabelecimentos e efetuando o agendamento das visitas.
+* **Visitante:** Interface de consulta onde o usuário seleciona cidades e estabelecimentos para interação e solicitações no sistema.
+
+## :dart: Requisitos de Qualidade (CI/CD)
+
+Para cumprir os objetivos da disciplina, o projeto implementa obrigatoriamente:
+
+**Testes Unitários:** Validação de funções, regras de negócio e integridade dos dados[cite: 5, 6].
+**Pipeline de CI/CD:** Integração contínua com feedback automático de sucesso ou falha e logs de execução.
+**Revisão de Código:** Utilização de GitHub Apps para análise automatizada e comentários em Pull Requests (PRs).
+**Proteção de Branch:** A branch principal exige a execução bem-sucedida da pipeline e aprovação via PR para integração.
+**Deploy Automatizado:** Publicação contínua da aplicação através do GitHub Pages.
+
+## :tools: Abordagem Técnica
+
+**Tipo de Projeto:** [A definir: Frontend estático ou Integração com Backend/BaaS][cite: 11, 12].
+**Justificativa:** A arquitetura será detalhada conforme a evolução do desenvolvimento, visando atender aos critérios de persistência de dados necessários para os perfis de acesso.
+
+---
+**Alunos:** Gabriel Sanches de Souza e Higor Silva Monteiro de Souza
+**Docente:** Guilherme Ferraz
+**Data Limite:** 14/04/2026
