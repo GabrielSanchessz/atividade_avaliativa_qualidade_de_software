@@ -10,7 +10,7 @@ A aplicação está estruturada em três níveis de acesso para atender ao fluxo
 * **Funcionário:** Atua na gestão operacional, cadastrando pessoas a serem visitadas em seus respectivos estabelecimentos e efetuando o agendamento das visitas.
 * **Visitante:** Interface de consulta onde o usuário seleciona cidades e estabelecimentos para interação e solicitações no sistema.
 
-## :dart: Requisitos de Qualidade (CI/CD)
+## Requisitos de Qualidade (CI/CD)
 
 Para cumprir os objetivos da disciplina, o projeto implementa obrigatoriamente:
 
