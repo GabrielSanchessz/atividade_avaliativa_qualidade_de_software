@@ -1,3 +1,5 @@
+# Atividade Avaliativa - Qualidade de Software
+
 O foco desta atividade consiste em:
 [cite_start]Implementar Testes Unitários em JavaScript para validação de regras de negócio e manipulação de dados[cite: 5, 6].
 [cite_start]Configurar um Pipeline de CI/CD que forneça feedback automático sobre o status da execução e logs dos testes[cite: 7, 8].
