@@ -2,7 +2,7 @@
 
 Este repositório contém o desenvolvimento de uma aplicação web para gestão de visitas, servindo como base prática para a aplicação de conceitos de qualidade, testes automatizados e integração contínua.
 
-## :clipboard: Funcionalidades do Sistema
+Funcionalidades do Sistema
 
 A aplicação está estruturada em três níveis de acesso para atender ao fluxo de agendamento:
 
